@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.task {
+  margin: 5px 5px;
+  padding: 5px;
+
+  width: 200px;
+  border: 1px #ccc solid;
+}
+
+.task .place {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.task .button {
+  background: blue;
+  border: 1px blue solid;
+  border-radius: 4px;
+  color: white;
+  width: 50px;
+  height: 30px;
+  float: right;
+}
+
+label {
+  font-weight: bold;
+}
+
+.result {
+  margin: 5px 5px;
+  padding: 5px;
+  height: 80px;
+  width: 200px;
+  border: 1px #ccc solid;
+}
+
+.result button {
+  background: blue;
+  border: 1px blue solid;
+  border-radius: 4px;
+  color: white;
+  width: 50px;
+  height: 30px;
+  float: right;
+  margin-bottom: 20px;
+}
+
+#res .res {
+  padding: 0;
+}
+
+#res .res li {
+  display: inline;
+  margin-right: 3px;
+  color: #ccc;
+}
